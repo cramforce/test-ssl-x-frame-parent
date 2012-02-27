@@ -1,0 +1,12 @@
+<!doctype html>
+
+<h1>Frame A</h1>
+<input type="button" id="a" value="Click Me">
+
+<script>
+
+document.getElementById('a').onclick = function() {
+  parent.frames.b.hello();
+}
+
+</script>
